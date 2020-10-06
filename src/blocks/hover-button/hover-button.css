@@ -1,0 +1,10 @@
+.hover-button:hover {
+  opacity: .6;
+}
+.hover-button {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.hover-button:focus{
+  outline:0;
+}
