@@ -1,7 +1,9 @@
 import React from 'react';
 
-function ImagePopup({ card, isOpen, onClose}) {
-	console.log(card)
+function ImagePopup(props) {
+
+	const { card, isOpen, onClose} = props;
+
 	return (
 		<section className={`pop-up popup_type_image ${isOpen && 'pop-up_type_opened'}`}>
 			<div className="pop-up__content">
