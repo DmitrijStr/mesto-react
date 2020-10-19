@@ -8,8 +8,10 @@
 
 @import url(./__image-button/photo-grid__image-button.css);
 @import url(./__trash-button/photo-grid__trash-button.css);
+@import url(./__trash-button/_visible/photo-grid__trash-button_visible.css);
 @import url(./__likes-count/photo-grid__likes-count.css);
 @import url(./__like-wrapper/photo-grid__like-wrapper.css);
+
 .photo-grid {
   display: grid;
   grid-row-gap: 21px;

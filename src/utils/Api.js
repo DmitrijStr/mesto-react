@@ -73,9 +73,9 @@ class Api {
 			headers: this._headers
 		})
 			.then(this._getResponseData())
-			.then((data) => {
-				return (data.likes.length)
-			})
+			// .then((data) => {
+			// 	return (data.likes.length)
+			// })
 	}
 
 	removeLike(id) {
@@ -84,9 +84,9 @@ class Api {
 			headers: this._headers
 		})
 			.then(this._getResponseData())
-			.then((data) => {
-				return (data.likes.length)
-			})
+			// .then((data) => {
+			// 	return (data.likes.length)
+			// })
 	}
 }
 
